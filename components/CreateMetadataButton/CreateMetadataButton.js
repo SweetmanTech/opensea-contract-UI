@@ -32,7 +32,7 @@ const CreateMetadataButton = () => {
       width={{ md: '180' }}
       alignItems="center"
     >
-      <Text>Metadata</Text>
+      <Text>Contract Metadata</Text>
       <MusicMetadataForm />
 
       <Button width="full" disabled={loading} onClick={handleClick}>
