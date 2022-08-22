@@ -10,5 +10,5 @@
 ### Credits
 
 - [degen](https://degen-xyz.vercel.app/) - UI Library
-- [erick] - MediaPicker.tsx
-- [nft.storager] - IPFS pinning
+- [erick](https://twitter.com/0xErick) - MediaPicker.tsx
+- [nft.storager](https://nft.storage/) - IPFS pinning
