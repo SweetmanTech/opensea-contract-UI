@@ -1,14 +1,14 @@
-## Zora Create Drop Template
-```
-cd ..
-cp .env.local.example .env.local
-# change NEXT_PUBLIC_CONTRACT_ADDRESS to the contract address you're using
-# change NEXT_PUBLIC_CHAIN_ID to the right network
-# change ALCHEMY_ID to your alchemy or infura URL
-```
+## Contract Metadata Generator
 
-Now finally you can install all the required packages, and run the server. :)
+### Getting Started
 
-```
-yarn install
-yarn dev
+1. rename `env.local.example` => `.env.local` and set `NEXT_PUBLIC_NFT_STORAGE_API_KEY` to your nft.storage api key.
+2. you can get a free API key for nft.storage here: https://nft.storage/
+3. run `yarn` to install dependencies
+4. run `yarn dev` to start the development server
+
+### Credits
+
+- [degen](https://degen-xyz.vercel.app/) - UI Library
+- [erick](https://twitter.com/0xErick) - MediaPicker.tsx
+- [nft.storager](https://nft.storage/) - IPFS pinning

@@ -11,7 +11,13 @@ const CreatePage = () => (
       alignItems="center"
       justifyContent="space-between"
     >
-      <Text>music nfts - Metadata Generator</Text>
+      <Text>
+        Contract Metadata Generator (powered by{' '}
+        <a href="https://nft.storage/" target="__blank">
+          nft.storage
+        </a>
+        )
+      </Text>
     </Box>
     <CreateMetadataButton />
   </Box>
